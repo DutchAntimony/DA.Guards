@@ -4,16 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7604f083-f2bb-4c41-b226-1ef77f049ce1" name="Changes" comment="Initial commit">
-      <changelist_data name="DutchAntimony" email="" />
-      <change afterPath="$PROJECT_DIR$/src/Guards/Guards.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Guards/NumberGuards.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DA.Guards.sln" beforeDir="false" afterPath="$PROJECT_DIR$/DA.Guards.sln" afterDir="false" />
-    </list>
+    <list default="true" id="7604f083-f2bb-4c41-b226-1ef77f049ce1" name="Changes" comment="NumberGuards added" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DpaMonitoringSettings">
+    <option name="autoShow" value="false" />
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
@@ -73,7 +71,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1732480293915</updated>
-      <workItem from="1732480295136" duration="1630000" />
+      <workItem from="1732480295136" duration="2398000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -83,11 +81,39 @@
       <option name="project" value="LOCAL" />
       <updated>1732480430132</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="NumberGuards added">
+      <option name="closed" value="true" />
+      <created>1732482689782</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1732482689782</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UnitTestsCoverage.Settings">
+    <option name="coveragePercentColumnWidth" value="150" />
+    <option name="sortOrder" value="DESCENDING" />
+    <option name="sortedColumn" value="1" />
+    <option name="symbolColumnWidth" value="1184" />
+    <coverage-tree-state>
+      <expand>
+        <path>
+          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
+          <item name="Total 100% 0/40" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+        </path>
+        <path>
+          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
+          <item name="Total 100% 0/40" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Guards 100% 0/5" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+        </path>
+      </expand>
+      <select />
+    </coverage-tree-state>
   </component>
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
@@ -105,26 +131,8 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="NumberGuards added" />
+    <option name="LAST_COMMIT_MESSAGE" value="NumberGuards added" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/test/GuardTests/NumberGuardTests.cs</url>
-          <line>16</line>
-          <properties documentPath="C:\Users\romke\source\repos\DutchAntimony\DA.Guards\test\GuardTests\NumberGuardTests.cs" containingFunctionPresentation="Method 'ShouldThrowWithMessageContaining'">
-            <startOffsets>
-              <option value="542" />
-            </startOffsets>
-            <endOffsets>
-              <option value="575" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
