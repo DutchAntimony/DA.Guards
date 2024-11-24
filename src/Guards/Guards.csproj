@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <RootNamespace>DA.Guards</RootNamespace>
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <PackageOutputPath>C:\Users\romke\source\nupkgs</PackageOutputPath>
+
+        <PackageId>DA.Guards</PackageId>
+        <Version>1.0.0</Version>
+        <Authors>Dutch Antimony</Authors>
+        <Description>DA.Guards is a basic Guard (Ensure) implementation for C#</Description>
+        <Copyright>Copyright © DutchAntimony 2024</Copyright>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <RepositoryUrl>https://github.com/DutchAntimony/DA.Guards</RepositoryUrl>
+        <!--<PackageReadmeFile>README.md</PackageReadmeFile>-->
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <IncludeSymbols>true</IncludeSymbols>
+        <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    </PropertyGroup>
+
+    <!--
+    <ItemGroup>
+        <None Include="README.md" Pack="true" PackagePath="/" />
+    </ItemGroup>
+    -->
+</Project>
