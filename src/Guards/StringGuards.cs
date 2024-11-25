@@ -8,7 +8,7 @@ namespace DA.Guards;
 public static class StringGuards
 {
     /// <summary>
-    /// Ensure that a given string is not empty.
+    /// Ensure that a given string is not null.
     /// </summary>
     /// <param name="value">The value to ensure.</param>
     /// <param name="message">The message in the exception if the value is invalid.</param>

@@ -18,7 +18,7 @@
         <Copyright>Copyright © DutchAntimony 2024</Copyright>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
         <RepositoryUrl>https://github.com/DutchAntimony/DA.Guards</RepositoryUrl>
-        <!--<PackageReadmeFile>README.md</PackageReadmeFile>-->
+        <PackageReadmeFile>README.md</PackageReadmeFile>
     </PropertyGroup>
 
     <PropertyGroup>
@@ -26,9 +26,13 @@
         <SymbolPackageFormat>snupkg</SymbolPackageFormat>
     </PropertyGroup>
 
-    <!--
     <ItemGroup>
-        <None Include="README.md" Pack="true" PackagePath="/" />
+      <Content Include="..\..\README.md">
+        <Link>README.md</Link>
+      </Content>
     </ItemGroup>
-    -->
+
+    <ItemGroup>
+        <None Include="..\..\README.md" Pack="true" PackagePath="/" />
+    </ItemGroup>
 </Project>
