@@ -4,7 +4,7 @@ using System.Runtime.CompilerServices;
 namespace DA.Guards;
 
 /// <summary>
-/// Verify that the value of a number is valid.
+/// Verify that the value of a number is within certain bounds.
 /// </summary>
 public static class NumberGuards
 {

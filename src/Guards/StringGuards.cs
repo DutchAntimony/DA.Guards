@@ -2,6 +2,9 @@ using System.Runtime.CompilerServices;
 
 namespace DA.Guards;
 
+/// <summary>
+/// Verify that a string is valid, either being not null, not empty or have a specific string length.
+/// </summary>
 public static class StringGuards
 {
     /// <summary>
