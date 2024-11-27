@@ -1,4 +1,5 @@
 using System.Runtime.CompilerServices;
+using JetBrains.Annotations;
 
 namespace DA.Guards;
 
@@ -17,7 +18,7 @@ public static class ObjectNullGuards
     /// <returns>Fluently the provided value, if value is valid.</returns>
     /// <exception cref="ArgumentException">Thrown if ensure does not succeed.</exception>
     public static T EnsureNotNull<T>(
-        this T? value,
+        [NoEnumeration] this T? value,
         string? message = null,
         [CallerArgumentExpression(nameof(value))] string parameter = "",
         [CallerMemberName] string method = "")
